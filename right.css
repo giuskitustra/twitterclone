@@ -1,0 +1,155 @@
+.right {
+  width: 348px;
+  height: 42400px;
+  border: 1px 1px 1px 1px;
+  margin-left: -650px;
+}  
+
+.search-btn{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(224, 224, 224);
+  border-radius: 50px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  position: fixed;
+  top: 0;
+  z-index:100;
+  width: 330px;
+}
+
+.search-icon {
+  height: 30px;
+  width: 30px;
+  padding-left: 8px;
+}
+
+.search-type {
+  padding: 12px;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(224, 224, 224);
+}
+
+.trend-column {
+  height: 600px;
+  border-radius: 20px;
+  background-color: rgb(244, 242, 242);
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.trends-for-you {
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.trending-topic{
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.trending {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.trending-icons {
+  object-fit: cover;
+  object-position: center;
+  height: 20px;
+  width: 20px;
+}
+
+.who-follow {
+  background-color: rgb(244, 242, 242);
+  padding-top: 12px;  
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;  
+}
+
+.user-to-follow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.user-to-follow:hover {
+  background-color: rgb(217, 216, 216) ;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.user-foto {
+  object-fit: cover;
+  object-position: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;    
+}
+
+.user-id {
+  display: block;
+  margin-left: -70px;
+}
+
+.follow-it {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+}
+
+.end-coding {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: rgb(183, 183, 183);
+  cursor: pointer;
+  
+  justify-content: space-between;
+     
+ 
+}
+
+.end-text {   
+  overflow-wrap: break-word;
+  font-weight: 400;
+  font-stretch: 100%;
+  display: inline; 
+  padding-right: 12px;  
+  font-size: 13px; 
+  align-items: center;
+}
+
+.end-text:hover {
+  text-decoration: underline;
+}
